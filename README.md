@@ -1,4 +1,4 @@
-Heart murmur detection using machine learning.
+Heart murmur detection using deep learning.
 
 Run ./setup.sh to install dependencies.
 
