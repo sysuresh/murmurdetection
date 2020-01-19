@@ -59,12 +59,6 @@ def predict(path):
 		prob = 0
 	print(probs[0])
 	return ["murmur", "normal"][prob], pred
-def getdigits(name):
-	digits = []
-	for i in name:
-		if i.isdigit():
-			digits.append(int(i))
-	return digits
 def main():
 	y_pred = []
 	names = []
